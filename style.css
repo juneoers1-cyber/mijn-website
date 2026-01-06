@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #6c63ff;
+  padding: 10px 20px;
+}
+
+nav a, nav button {
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+header, section {
+  padding: 40px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  background: #6c63ff;
+  color: white;
+  font-size: 16px;
+}
+
+/* afbeelding */
+img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* dark mode */
+.dark {
+  background: #121212;
+  color: #eee;
+}
+
+.dark nav {
+  background: #333;
+}
+
+/* mobiel */
+@media (max-width: 600px) {
+  header, section {
+    padding: 20px;
+  }
+}
